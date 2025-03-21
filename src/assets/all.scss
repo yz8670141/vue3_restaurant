@@ -1,0 +1,9 @@
+@import "bootstrap/scss/bootstrap.scss";  
+
+// 與變數有關的函式檔案，必須寫這個函式檔，客製化的變數檔才可自行定義
+@import "bootstrap/scss/functions";
+// 客製的變數檔
+@import "./variables";
+
+// 載入原生bootstrap
+@import "bootstrap/scss/bootstrap.scss";
